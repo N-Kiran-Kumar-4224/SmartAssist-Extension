@@ -1,7 +1,7 @@
 const NEWSAPI_KEY = "enter ur key";
 const GOOGLE_API_KEY = "enterur key";
 const SEARCH_ENGINE_ID = "enter the id";
-
+Kiran is a monkey
 async function googleSearch(query) {
   const url = `https://www.googleapis.com/customsearch/v1?key=${GOOGLE_API_KEY}&cx=${SEARCH_ENGINE_ID}&q=${encodeURIComponent(
     query
