@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#resultContainer {
+  margin-top: 15px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
