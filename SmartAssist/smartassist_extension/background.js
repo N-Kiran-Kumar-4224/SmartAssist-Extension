@@ -1,6 +1,6 @@
-const NEWSAPI_KEY = "84274e937dd9486392b95a29b1b7338a";
-const GOOGLE_API_KEY = "AIzaSyCCiZYGOnsVmDLC1_4AquCGwtIJ1TO1HAg";
-const SEARCH_ENGINE_ID = "d6687f090ae8a4e2d";
+const NEWSAPI_KEY = "enter ur key";
+const GOOGLE_API_KEY = "enterur key";
+const SEARCH_ENGINE_ID = "enter the id";
 
 async function googleSearch(query) {
   const url = `https://www.googleapis.com/customsearch/v1?key=${GOOGLE_API_KEY}&cx=${SEARCH_ENGINE_ID}&q=${encodeURIComponent(
